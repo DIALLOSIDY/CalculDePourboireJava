@@ -121,16 +121,11 @@ public class GameFrame extends JFrame {
         });
         
      
-        //je veux calculer le montant en tappant juste pour entrer
-        this.addKeyListener(new KeyAdapter() {
-            @Override
-            
-            public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-                  
-                    effectuerCalcul();
-                }
-             }
+        //une fois qu'on appuie sue la touche entrer le calcul est aussi effectuer
+        //le boutton entrer agit sur un JTextField si le focus est sur celui si
+         montantText.addActionListener((e)->{
+            effectuerCalcul();
+           
         });
         
         
