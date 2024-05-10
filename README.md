@@ -28,7 +28,7 @@ Ce projet est une application simple de calcul de pourboire développée en Java
 
 ## Captures d'écran
 
-Insérez ici quelques captures d'écran de l'application en action pour donner aux utilisateurs une idée de son apparence et de son fonctionnement.
+
 
 ## Auteur
 
